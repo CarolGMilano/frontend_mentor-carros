@@ -1,0 +1,29 @@
+@media screen and (min-width: 600px) {
+    main {
+        align-items: center; 
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        margin: 0; 
+    }
+
+    .card {
+        width: 335px;
+    }
+
+    .card__descricao {
+        margin-bottom: 4rem;
+    }
+
+    .section__laranja {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .section__verde {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card__btn:hover {
+        background-color: var(--cinza_hover);
+    }
+}

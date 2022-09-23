@@ -1,0 +1,22 @@
+@import url('card.css');
+@import url('responsividade.css');
+
+:root {
+    --branco: hsla(0, 0%, 100%, 0.75);
+    --ciano: hsl(184, 100%, 22%);
+    --cinza: hsl(0, 0%, 95%); 
+    --cinza_hover: hsl(0, 0%, 95%, 0.6);
+    --laranja: hsl(31, 77%, 52%);
+    --verde: hsl(179, 100%, 13%);
+
+    --bigShouldersDisplay: 'Big Shoulders Display', cursive;
+    --lexendDeca: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgb(0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+
+main {
+    margin: 1rem;
+}

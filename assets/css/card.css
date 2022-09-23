@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    row-gap: 1.5rem;
+}
+
+.section__laranja {
+    background-color: var(--laranja);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section__ciano {
+    background-color: var(--ciano);
+}
+
+.section__verde {
+    background-color: var(--verde);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card__icone {
+    height: 40px;
+    width: 70px;
+}
+
+.icone__sedan {
+    background: url('../img/icon-sedans.svg') no-repeat;
+}
+
+.icone__suvs {
+    background: url('../img/icon-suvs.svg') no-repeat;
+}
+
+.icone__luxury {
+    background: url('../img/icon-luxury.svg') no-repeat;
+}
+
+.card__titulo {
+    color: var(--cinza);
+    font-family: var(--bigShouldersDisplay);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.card__descricao {
+    color: var(--branco);
+    font-family: var(--lexendDeca);
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.card__btn {
+    background-color: var(--cinza);
+    border: none;
+    border-radius: 30px;
+    font-family: var(--lexendDeca);
+    padding: 1rem 2rem;
+    transition: .3s;
+    width: max-content;
+}
+
+.btn__laranja {
+    color: var(--laranja);
+}
+
+.btn__ciano {
+    color: var(--ciano);
+}
+
+.btn__verde {
+    color: var(--verde);
+}
+
